@@ -3,8 +3,8 @@ Readme
 # Clima Agora
 
 
-<img src="./src/images/img-consultaClima01" alt="Print da página Clima Agora 01">
-<img src="./src/images/img-consultaClima02" alt="Print da página Clima Agora 02">
+<img src="src/images/img-consultaClima01.png" alt="Print da página Clima Agora 01">
+<img src="src/images/img-consultaClima02.png" alt="Print da página Clima Agora 02">
 
 >Consumindo API de Clima - https://openweathermap.org/current
 
