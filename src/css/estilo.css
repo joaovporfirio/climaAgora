@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(180deg,#014ba0,#3b8eed);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+       
+    background-image: linear-gradient(-180deg,#014ba0,#0267da);
+    box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 30px;
+    color: #fdfdfd;
+    text-align: center;
+   
+}
+
+#form {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#form #input_cidade {
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+#form #pesquisa {
+    background-color: #5199ec;
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+#form #img-button {
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+
+
+.previsao {
+    
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+#icon-umidade,
+#icon-vento,
+#icon-cidade {
+    width: 20px;
+    height: 20px;
+}
+
+.previsao h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+   
+}
+
+.previsao #pais {
+    padding-left: 10px;
+    width: 35px;
+    height: auto;
+}
+
+.previsao #temperatura {
+    margin-bottom: 20px;
+}
+
+.previsao #clima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.previsao #descricao {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.detalhes_tempo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalhes_tempo #umidade {
+    border-right: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    line-height: 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}

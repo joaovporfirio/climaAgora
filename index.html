@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <title>Clima Agora</title>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h2> Clima Agora</h2>
+        <div id="form">
+
+            <input type="text" id="input_cidade" placeholder="Digite o nome da cidade">
+            <button id="pesquisa">
+                <img id="img-button" src="./src/images/lupa.png" alt="pesquisar">
+            </button>
+
+        </div>
+
+
+        <div class="previsao hide" >
+
+            <h2>
+                <img src="./src/images/location.png" alt="icon-cidade" id="icon-cidade" />
+                <span id="cidade"> - </span>
+                <img src="" alt="bandeira" id="pais" />
+            </h2>
+
+            <p id="temperatura"><span>- </span>&deg;C</p>
+
+            <div id="clima">
+
+                <p id="descricao">-</p>
+                <img src="" alt="descricao do tempo" id="icon-tempo" />
+            </div>
+
+            <div class="detalhes_tempo">
+                <div id="umidade">
+                    <img src="./src/images/gotas-de-agua.png" alt="umidade do tempo" id="icon-umidade" />
+                    <span>- %</span>
+                </div>
+
+                <div id="vento">
+                    <img src="./src/images/vento.png" alt="vento" id="icon-vento" />
+                    <span>- km/h</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por João Victor Porfírio</p>
+        <p>Acesso <a target="_blank" href="https://github.com/joaovporfirio">GitHub</a></p>
+
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
