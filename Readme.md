@@ -6,7 +6,7 @@ Readme
 <img src="src/images/img-consultaClima01.png" alt="Print da página Clima Agora 01">
 <img src="src/images/img-consultaClima02.png" alt="Print da página Clima Agora 02">
 
->Consumindo API de Clima - https://openweathermap.org/current
+>Consumindo API de Clima - https://openweathermap.org/current <br>
 >Consumindo API do Unsplash - https://unsplash.com/documentation#get-a-random-photo
 
 <!------------------------------------STACKS-->
@@ -32,7 +32,8 @@ Readme
 
 > O Objetivo da criação deste projeto foi desenvolver uma aplicação que fosse necessária consumir uma API de clima e retornar dados da cidade pesquisada pelo usuário, além de utilizar métodos de assincronicidade como Async/await e utilização de promisses. Para complementar o projeto foi consumido uma segunda API do Unsplash que retorna uma imagem de Background relacionado com a cidade.<br>
   
->Link para acessar o projeto: https://joaovporfirio.github.io/climaAgora/
+>Link para acessar o projeto no ar: https://joaovporfirio.github.io/climaAgora/
+
   
   
   # Conhecimentos utilizados
