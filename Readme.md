@@ -7,6 +7,7 @@ Readme
 <img src="src/images/img-consultaClima02.png" alt="Print da página Clima Agora 02">
 
 >Consumindo API de Clima - https://openweathermap.org/current
+>Consumindo API do Unsplash - https://unsplash.com/documentation#get-a-random-photo
 
 <!------------------------------------STACKS-->
 #### Stacks:
@@ -29,7 +30,7 @@ Readme
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre o projeto <!---write here : talk a little about project: what's does, example.  -->
 > O projeto Clima Agora tem a finalidade de fornecer informações do clima na cidade pesquisada. Os dados retornados são: cidade, bandeira do país, temperatura atual, descrição do tempo, umidade e velocidade do vento. 
 
-> O Objetivo da criação deste projeto foi desenvolver uma aplicação que fosse necessária consumir uma API de clima e retornar dados da cidade pesquisada pelo usuário, além de utilizar métodos de assincronicidade como Async/await e utilização de promisses.<br>
+> O Objetivo da criação deste projeto foi desenvolver uma aplicação que fosse necessária consumir uma API de clima e retornar dados da cidade pesquisada pelo usuário, além de utilizar métodos de assincronicidade como Async/await e utilização de promisses. Para complementar o projeto foi consumido uma segunda API do Unsplash que retorna uma imagem de Background relacionado com a cidade.<br>
   
 >Link para acessar o projeto: https://joaovporfirio.github.io/climaAgora/
   
