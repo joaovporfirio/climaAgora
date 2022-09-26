@@ -21,7 +21,7 @@ var pesquisaCidade = async () => {
     var dadosJson = await dados.json()
 
     //Mudando Background
-    var urlImagem = "https://api.unsplash.com/search/?client_id=a_zJxBxRX2A8-OwkYX0Aqz9ErVYCJC-0JD4yj37t6a0&query=" + dadosJson.name + "&orientation=landscape"
+    var urlImagem = "https://api.unsplash.com/search/?client_id=a_zJxBxRX2A8-OwkYX0Aqz9ErVYCJC-0JD4yj37t6a0&query=cidade" + dadosJson.name + "&orientation=landscape"
 
     var imagemBackground = await fetch(urlImagem)
     var imagem = await imagemBackground.json()
@@ -37,14 +37,6 @@ var pesquisaCidade = async () => {
         body.style.backgroundImage = 'linear-gradient(180deg,#014ba0,#3b8eed)'
 
     }
-
-
-
-
-
-
-
-
 
     //Tratamento de erro no nome da cidade
     if (dadosJson.name == undefined) {
@@ -78,6 +70,3 @@ document.getElementById('input_cidade').addEventListener('keyup', (e) => {
         pesquisaCidade()
     }
 })
-
-
-
