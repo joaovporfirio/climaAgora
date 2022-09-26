@@ -27,7 +27,7 @@ var pesquisaCidade = async () => {
     var imagem = await imagemBackground.json()
 
     if (imagem.photos.results[0]?.urls.regular) {
-        // criando url para mudar
+        // criando url para mudar o background
         var urlpersonalizada = imagem.photos.results[0]?.urls.regular
         console.log(urlpersonalizada)
         var body = document.querySelector('.body')
